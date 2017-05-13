@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">AQIMonitor</string>
+    <string name="aqi_heading">AQI:</string>
+    <string name="aqi_heading_string">AQI</string>
+    <string name="co_heading_string">CO</string>
+    <string name="d_heading_string">D</string>
+    <string name="h_heading_string">H</string>
+    <string name="o3_heading_string">O3</string>
+    <string name="p_heading_string">P</string>
+    <string name="pm10_heading_string">PM10</string>
+    <string name="so2_heading_string">SO2</string>
+    <string name="w_heading_string">W</string>
+    <string name="t_heading_string">T</string>
+    <string name="wd_heading_string">WD</string>
+    <string name="no2_heading_string">NO2</string>
+    <string name="pm25_heading_string">PM25</string>
+    <string name="co_measure_unit">ppm</string>
+    <string name="d_measure_unit">kg/m<sup>3</sup></string>
+    <string name="h_measure_unit">%</string>
+    <string name="o3_measure_unit">pphm</string>
+    <string name="p_so2_o3_pm10_pm25_measure_unit">µg/m<sup>3</sup></string>
+    <string name="t_measure_unit">\u2103</string>
+    <string name="unknown_unit">temp_unit</string>
+    <string name="safe_string">Safe</string>
+    <string name="moderate_string">Moderate</string>
+    <string name="sensitive_string">Unsafe for sensitive people</string>
+    <string name="unhealthy_string">Unhealthy</string>
+    <string name="very_unhealthy_string">Very Unhealthy</string>
+    <string name="hazardous_string">Hazardous</string>
+    <string name="safe_suggestion">Air quality is considered satisfactory, and air pollution poses little or no risk.</string>
+    <string name="moderate_suggestion">Air quality is acceptable; however, for some pollutants there may be a moderate health concern for a very small number of people who are unusually sensitive to air pollution.</string>
+    <string name="usg_suggestion">Members of sensitive groups may experience health effects. The general public is not likely to be affected.</string>
+    <string name="unhealthy_suggestions">Everyone may begin to experience health effects; members of sensitive groups may experience more serious health effects.</string>
+    <string name="very_unhealthy_suggestion">Health warnings of emergency conditions. The entire population is more likely to be affected.</string>
+    <string name="hazardous_suggestion">Health alert: everyone may experience more serious health effects</string>
+    <string name="suggestions">Suggestions</string>
+</resources>

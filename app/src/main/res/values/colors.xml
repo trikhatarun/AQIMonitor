@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4CAF50</color>
+    <color name="colorPrimaryDark">#006400</color>
+    <color name="colorAccent">#00B0FF</color>
+    <color name="safe_color">#228B22</color>
+    <color name="moderate_color">#FFFF00</color>
+    <color name="usg_color">#FFA500</color>
+    <color name="unhealthy_color">#FF0000</color>
+    <color name="very_unhealthy_color">#800080</color>
+    <color name="hazardous_color">#800000</color>
+</resources>
