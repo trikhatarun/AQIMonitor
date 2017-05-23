@@ -4,6 +4,7 @@ import android.Manifest;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.graphics.Color;
+import android.graphics.Typeface;
 import android.location.Location;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -61,6 +62,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
 
     private GoogleApiClient googleApiClientInstance;
     private DecimalFormat decimalFormat;
+    private Typeface Josefin_Bold, Josefin_Regular, Josefin_Light, Josefin_SemiBold;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -84,6 +86,11 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
                 .build();
 
         decimalFormat = new DecimalFormat("#.##");
+
+        Josefin_Regular = Typeface.createFromAsset(getAssets(), "fonts/JosefinSans-Regular.ttf");
+        Josefin_Bold = Typeface.createFromAsset(getAssets(), "fonts/JosefinSans-Bold.ttf");
+        Josefin_Light = Typeface.createFromAsset(getAssets(), "fonts/JosefinSans-Light.ttf");
+        Josefin_SemiBold = Typeface.createFromAsset(getAssets(), "fonts/JosefinSans-SemiBold.ttf");
     }
 
     @Override
@@ -149,6 +156,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
                 String locationText = city.getName();
                 Log.v("location", locationRecent.getLatitude() + " long: " + locationRecent.getLongitude());
                 location.setText(locationText);
+                location.setTypeface(Josefin_SemiBold);
                 int color;
 
                 if (aqi < 51) {

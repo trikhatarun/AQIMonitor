@@ -4,15 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/background"
     android:orientation="vertical">
 
     <TextView
         android:id="@+id/location"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:paddingBottom="8dp"
-        android:paddingTop="8dp"
+        android:layout_height="?android:attr/actionBarSize"
+        android:gravity="center_vertical"
+        android:paddingLeft="18dp"
+        android:paddingStart="18dp"
         android:textSize="25sp"
         android:textStyle="bold"
         tools:text="DELHI" />
@@ -75,7 +76,7 @@
     <android.support.v7.widget.RecyclerView
         android:id="@+id/readings"
         android:layout_width="match_parent"
-        android:layout_height="230dp"
+        android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:gravity="center" />
 
@@ -90,6 +91,7 @@
         android:layout_height="wrap_content"
         android:padding="8dp"
         android:text="@string/suggestions"
+        android:textColor="@android:color/white"
         android:textSize="20sp"
         android:textStyle="bold" />
 
